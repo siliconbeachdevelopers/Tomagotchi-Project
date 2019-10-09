@@ -1,0 +1,119 @@
+.container-fluid {
+    
+}
+
+ul { 
+float: top;
+float: right;
+color: white;
+font-weight: 600;
+
+
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/122/923/original/jungle-landscape-with-liana-hanging-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+.text {
+    color:White;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .list {
+    color:White;
+    font-weight: 600;
+    font-size: 30px; 
+    margin-bottom: 200px;
+
+  }
+
+  #name {
+    font-family: Yesteryear;
+    font-size: 70px;
+    font-weight: 800;
+    border-width: 4px;
+    background-color: white;
+    display: inline-block;
+    background-blend-mode: luminosity;
+
+  }
+ 
+  .lion{
+      position: absolute;
+      left:50%;
+      top: 50%;
+      animation: move 5s infinite;
+  }
+
+  @keyframes move{
+      25%{
+        transform: translate(100%, 0)
+      }
+      50%{
+        transform: translate(100%, 100%)
+      }
+      75%{
+        transform: translate(0, 100%)
+      }
+      100%{
+        transform: translate(0, 0)
+      }
+
+      
+  }
+
+  .alert-container{
+    height:75px;
+    background-color: lawngreen, 0.5;
+    
+  
+    
+  }
+  .hungryAlert {
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+    
+  }
+  .sleepyAlert{
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+  }
+
+  .playAlert {
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+
+  }
+  .roarAlert{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+  }
+
+  #hungrystats{
+    font-size: 40px;
+    font-weight: 700;
+
+  }
+  #sleepystats{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  #playstats{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+    span{
+    font-size: 40px;
+    font-weight: 700;
+
+  }
